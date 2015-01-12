@@ -39,6 +39,6 @@ RUN \
   ln -s /usr/local/share/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/bin/phantomjs
 
 RUN \
-  echo "export PHANTOMJS_BIN=/usr/bin/phantomjs" > .bashrc
+  echo "export PHANTOMJS_BIN=/usr/bin/phantomjs" >> .bashrc
 
 CMD "bash"
