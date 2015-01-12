@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile:nodejs-bower-grunt
+FROM dockerfile/nodejs-bower-grunt
 
 # Phantomjs 1.9.7
 RUN \
