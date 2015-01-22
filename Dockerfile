@@ -26,7 +26,8 @@ RUN \
   libicu-dev \
   libfreetype6 \
   libpng-dev \
-  libjpeg-dev
+  libjpeg-dev \
+  imagemagick
 
 
 # Phantomjs 1.9.7
